@@ -1,3 +1,5 @@
+// Given a 32-bit signed integer, reverse digits of an integer.
+
 var reverse = function(x)
 {
 	const isNeg = x < 0 

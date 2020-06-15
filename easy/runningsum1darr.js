@@ -7,6 +7,4 @@
  * @return {number[]}
  */
 
-const runningSum = function (nums) {
-  return nums.map((curr, i) => nums[i] += (nums[i-1]) ? nums[i-1] : 0)
-}
+const runningSum = (nums) => nums.map((curr, i) => nums[i] += (nums[i-1]) ? nums[i-1] : 0)
